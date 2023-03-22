@@ -53,7 +53,6 @@ namespace Spurhiash.OrderAPI.Controllers
             {
                 return NotFound();
             }
-            order.Total = updatedOrder.Total;
             order.BuyerId = updatedOrder.BuyerId;
             order.ProductItems = updatedOrder.ProductItems;
             return NoContent();

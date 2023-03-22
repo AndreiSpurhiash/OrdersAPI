@@ -9,7 +9,6 @@ namespace Spurhiash.OrderAPI.Data
         new Order
         {
             Id = Guid.NewGuid(),
-            Total = 30.00M,
             BuyerId = Guid.NewGuid(),
             ProductItems = new List<ProductItem>
             {
@@ -20,7 +19,6 @@ namespace Spurhiash.OrderAPI.Data
         new Order
         {
             Id = Guid.NewGuid(),
-            Total = 15.50M,
             BuyerId = Guid.NewGuid(),
             ProductItems = new List<ProductItem>
             {
